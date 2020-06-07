@@ -3,37 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/b8a00c572e.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="Mysite.css">
     <title>My Site</title>
 </head>
     <body>
-        <header class="header">
-            <a href="Mysite_study.html">
-                <img src="img/logo.png" alt="logo_image" class="logo_image">
-            </a>
-            <nav>
-                <ul>
-                    <li class="header_li">Portfolio</li><li class="header_li">Feature</li><li class="header_li">Profile</li><li class="header_li">Content</li>
-                </ul>
-            </nav>
+        <header>
+            <div class="header">
+                <a href="Mysite_study.html">
+                    <img src="img/logo.png" alt="my_Site_logo" class="my_site_logo">
+                </a>
+                <nav class="nav">
+                    <ul>
+                        <li class="nav_li">
+                            <a href="#portfolio">Portfolio</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#feature">Feature</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#profile">Profile</a>
+                        </li>
+                        <li class="nav_li">
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
 
-        <main class="main_visual">
-            <h1>Lorem Ipsum</h1>
-            <p>simply dummy text of the printing</p>
-        </main>
+        <section class="main_visual">
+            <h1 class="mv_text">Lorem Ipsum</h1>
+            <p class="mv_text">simply dummy text of the printing</p>
+        </section>
 
-        <main class="portfolio">
-            <h1>Portfolio</h1>
-            <p>今回はそのゲームに搭載されえている選手の中から
-                <br>「瞬発力が最も高い攻撃的MF」のランキングを作成してみた。
-                <br>対象の数値はレベル1の段階のものだ。</p>
-            <div class="img1"></div>
-            <div class="img2"></div>
-            <div class="img3"></div>
-            <div class="img4"></div>
-            <div class="img5"></div>
-            <div class="img6"></div>
-        </main>
+        <section id="portfolio">
+            <div class="pf_area">
+                <h2 class="pf_headline">Protfio</h2>
+                <p class="pf_text">It is a long established fact that a reader will be distracted by the readable
+                <br>content of a page when looking at its layout.
+                <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <div class="pf_img"></div>
+                <div class="pf_img"></div>
+                <div class="pf_img"></div>
+                <div class="pf_img"></div>
+                <div class="pf_img"></div>
+                <div class="pf_img"></div>
+            </div>
+        </section>
+
+        <section id="feature">
+            <div class="feature_area">
+                <h2 class="feature_headline">Feature</h2>
+                <p class="feature_text">It is a long established fact that a reader will be distracted by the readable
+                <br>content of a page when looking at its layout.
+                <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <div class="strength">
+                    <i class="fas fa-code" class="feature_icon"></i>
+                    <h3 class="strength_headline">Strength1</h3>
+                    <p class="strength_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+                <div class="strength">
+                    <i class="fas fa-desktop" class="feature_icon"></i>
+                    <h3 class="strength_headline">Strength2</h3>
+                    <p class="strength_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+                <div class="strength">
+                    <i class="fas fa-cogs" class="feature_icon"></i>
+                    <h3 class="strength_headline">Strength3</h3>
+                    <p class="strength_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="profile">
+            <div class="profile_area">
+                <h2 class="profile_headline">Profile</h2>
+                <p class="profile_text">It is a long established fact that a reader will be distracted by the readable
+                <br>content of a page when looking at its layout.
+                <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                
+                <div class="profile_content">
+                    <div class="profile_content_left">
+                        <div class="profile_icon"></div>
+                    </div>
+                    <div class="profile_content_right">
+                        <div class="my_name">
+                            <h3 class="my_name_headline">Myname</h3>
+                            <p class="my_name_text">Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur</p>
+                        </div>
+                        <div class="my_skills">
+                            <h3 class="my_skills_headline">MySkills</h3>
+                            <p class="my_skills_text">HTML/CSS,JavaScript,JQuery,PhotoShop</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <section class="contact">
+            <div class="contact_area">
+                <h3 class="contact_headline">Contact</h3>
+                <p class="contact_text">It is a long established fact that a reader will be distracted by the readable
+                <br>content of a page when looking at its layout.
+                <br>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters</p>
+                <div class="contact_content">
+                    <div class="contact_left">
+                        <div class="contact_mail">
+                            <h3 class="mail_headline">Mail</h3>
+                            <a class="mail_adress" href="mailto:xxx@xxx.com">xxx@xxx.com</a>
+                        </div>
+                        <div class="contact_tel">
+                            <h3 class="tel_headline">Tel</h3>
+                            <a href="tel:00000000000" class="tel_number">000-0000-0000</a>
+                        </div>
+                    </div>
+                    <div class="contact_right">
+                        <h3 class="sns_headline">SNS</h3>
+                        <div class="sns_icon"><i class="fab fa-facebook-f"></i></div>
+                        <div class="sns_icon"><i class="fab fa-twitter"></i></div>
+                        <div class="sns_icon"><i class="fab fa-instagram"></i></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <p class="footer_text">©︎ 2017 WebCamp</p>
+        </footer>
+
     </body>
 </html> 
