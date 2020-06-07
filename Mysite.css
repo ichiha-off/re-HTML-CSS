@@ -164,7 +164,7 @@ p.mv_text {
     margin: 0 10px;
 }
 /* Profile */
-.profile {
+#profile {
     background-color: #eceff1;
 }
 .profile_area {
@@ -293,4 +293,130 @@ p.mv_text {
 .footer_text {
     font-size: 16px;
     color: #FAFAFA;
+}
+/* 画面サイズが 768px 以下の場合 */
+@media screen and (max-width:768px) {
+    header {
+        height: 50px;
+        width: 100%;
+    }
+    .header {
+        width: 90%;
+    }
+    .my_site_logo {
+        height: 50px;
+    }
+    .nav_li {
+        display: none;
+    }
+    #humberger {
+        position: relative;
+        height: 36px;
+        width: 36px;
+        border: 2px solid #FAFAFA;
+        border-radius: 4px;
+        float: right;
+        margin: 5px 0 5px 0;
+      }
+      #humberger div {
+        position: absolute;
+        left: 4px;
+        height: 4px;
+        width: 24px;
+        background-color: #FAFAFA;
+        border-radius: 2px;
+      }
+      #humberger div:nth-of-type(1) {
+        top: 4px;
+      }
+      #humberger div:nth-of-type(2) {
+        top: 14px;
+      }
+      #humberger div:nth-of-type(3) {
+        bottom: 4px;
+      }
+    .main_visual {
+        background-image: url(img/code.png);
+        padding-top: 200px;
+        height: 650px;
+    }
+    .main_visual>h1, .main_visual>p {
+        width: 90%;
+    }
+    .main_visual>h1 {
+        font-size: 40px;
+        margin: 0 auto 10px auto;
+    }
+    .main_visual>p {
+        font-size: 18px;
+        margin: 0 auto;
+    }
+    #portfolio {
+        padding: 0 5%;
+    }
+    .pf_area {
+        width: 90%;
+    }
+    .pf_img:nth-of-type(2) {
+        margin-top: 30px;
+    }
+    .pf_img:nth-of-type(2),.pf_img:nth-of-type(4),.pf_img:nth-of-type(6) {
+        display: block;
+        margin: 0 auto 10px auto;
+    }
+    .pf_img:nth-of-type(1),.pf_img:nth-of-type(3),.pf_img:nth-of-type(5) {
+        display: none;
+    }
+    #feature {
+        padding: 0 5%;
+    }
+    .feature_area {
+        width: 90%;
+    }
+    .strength {
+        text-align: center;
+    }
+    #profile {
+        padding: 0 5%;
+    }
+    .profile_area {
+        width: 90%;
+    }
+    .profile_content {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile_content_left {
+        display: block;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile_content_right {
+        display: block;
+        width: 90%;
+        padding-top: 20px;
+        text-align: center;
+        margin: 0 auto;
+    }
+    #contact {
+        padding: 0 5%;
+    }
+    .contact_area {
+        width: 90%;
+    }
+    .contact_left {
+        display: inline;
+    }
+    .contact_right {
+        display: inline;
+    }
+    .sns_headline {
+        padding-top: 20px;
+    }
+    .sns_icon {
+        margin: auto;
+    }
+    .sns_icon:nth-of-type(2) {
+    margin: 0 8px;
+    }
 }
